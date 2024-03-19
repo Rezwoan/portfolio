@@ -60,26 +60,36 @@ section {
 .sec1 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: violet;
 }
 
 .sec2 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: blue;
 }
 
 .sec3 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: green;
 }
 
 .sec4 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: orange;
 }
 
 .sec5 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: red;
+}
+
+.active {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
 }
 
 //controls
