@@ -1,7 +1,12 @@
 import React from "react";
+import Hero from "./sections/Hero.jsx";
 
 const App = () => {
-    return <div>App</div>;
+    return (
+        <>
+            <Hero />
+        </>
+    );
 };
 
 export default App;
