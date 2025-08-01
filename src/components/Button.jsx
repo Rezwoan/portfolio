@@ -1,3 +1,4 @@
+import React from "react";
 const Button = ({ text, className, id }) => {
     return (
         <a
